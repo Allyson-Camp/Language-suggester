@@ -28,8 +28,7 @@ document.querySelector() or document.whatever as UI Logic. Basically anything th
 
 
 
-working js b4 refactor
-
+ORIGINAL WORKING JS
 window.addEventListener("load", function () {
     const form = document.querySelector("form");
     const printedAnswer = document.getElementById("printed-answer");
@@ -56,4 +55,46 @@ window.addEventListener("load", function () {
       document.getElementById("printed-answer").innerHTML = result;
     });
 
+});
+
+
+
+
+REFACTORED AND WORKING
+//Business logic
+function hideAnswer() {
+    document.getElementById("printed-answer").setAttribute("class", "hidden");
+}
+
+function showAnswer() {
+    document.getElementById("printed-answer").removeAttribute("class", "hidden");
+}
+
+//UI logic
+function formEventListener() {
+    const form = document.querySelector("form");
+    form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        const singer = document.getElementById("singer").value;
+        const holiday = document.getElementById("holiday").value;
+        const cLang = document.getElementById("c-lang").innerHTML;
+        const jsLang = document.getElementById("js-lang").innerHTML;
+        const reactLang = document.getElementById("react-lang").innerHTML;
+
+        let result;
+        if (singer === "tay" && holiday === "halloween") {
+            result = cLang;
+        } else if (singer === "rob" && holiday === "halloween") {
+            result = jsLang;
+        } else if (holiday === "still-halloween") {
+            result = reactLang;
+        }
+        document.getElementById("printed-answer").innerHTML = result;
+    });
+    showAnswer();
+}
+
+window.addEventListener("load", function () {
+    hideAnswer();
+    formEventListener();
 });
