@@ -16,8 +16,7 @@ DONE 3. Logic:
 
 DONE branching if/else plan
 
-*hide whole div at first, then uncover one at a time
-
+*hide everything and redo the function when form is resubmitted
 *hide whole div when clear button is pressed
 
 **NOT NEEDED TO DO GH-PAGES, CAN DO OVER WEEKEND IF WANT TO**
