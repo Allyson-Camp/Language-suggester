@@ -26,13 +26,13 @@ This webpage allows the user to answer a series of yes or no questions within a 
 
 1. Go to [This Link](https://github.com/Allyson-Camp/Language-suggester)
 
-2. copy the repository url by clicking the green <> Code button: https://github.com/Allyson-Camp/Language-suggester.git
+2. Copy the repository url by clicking the green <> Code button: https://github.com/Allyson-Camp/Language-suggester.git
 
 3. Open your computer's GitBash or terminal
 
-4. navigate to your desktop or where you want the project folder to be saved
+4. Navigate to your desktop or where you want the project folder to be saved
 
-5. once in the desired folder enter: git clone https://github.com/Allyson-Camp/Language-suggester.git
+5. Once in the desired folder enter: git clone https://github.com/Allyson-Camp/Language-suggester.git
 
 6. Type: code . to open all files in the Language-suggester folder in your code editor of choice 
 

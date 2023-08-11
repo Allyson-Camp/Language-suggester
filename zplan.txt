@@ -14,6 +14,11 @@ what we need:
     - if/else branching for logic
 4. function to clear previous answers when form is resubmitted or put in "clear" button
 
+branching if/else plan
+*if choose singer = rob zombie answer will be JS
+if choose singer = tay swift answer will be C#
+
+if choose season = halloween or still halloween answer will be react
 
 
 **NOT NEEDED TO DO GH-PAGES, CAN DO OVER WEEKEND IF WANT TO**
