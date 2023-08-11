@@ -20,7 +20,7 @@
 
 ## Description
 
-This webpage allows the user to answer a series of yes or no questions within a form that will help to determine which programming language, out of JavaScript, React, or C#, would be the best fit for them. Branching logic is utilized to determine which language is most compatible with the users' answer choices.JavaScript functions are used to run that logic and print out the suggested language name and description when the form is submitted and clear any previous answers with subsequent submissions.
+This webpage allows the user to answer a series of yes or no questions within a form that will help to determine which programming language, out of JavaScript, React, or C#, would be the best fit for them. Branching logic is utilized to determine which language is most compatible with the users' answer choices. JavaScript functions are used to run that logic and print out the suggested language name and description when the form is submitted, and clear any previous answers with subsequent submissions.
 
 ## Setup/Installation Requirements
 
