@@ -9,18 +9,22 @@ window.addEventListener("load", function () {
 
       const singer = document.getElementById("singer").value;
       const holiday = document.getElementById("holiday").value;
-      const cLang = document.getElementById("c-lang");
-      const jsLang = document.getElementById("js-lang");
-      const reactLang = document.getElementById("react-lang");
+      const cLang = document.getElementById("c-lang").innerHTML;
+      const jsLang = document.getElementById("js-lang").innerHTML;
+      const reactLang = document.getElementById("react-lang").innerHTML;
 
       let result;
 
       if (singer === "tay" && holiday  === "halloween") {
-        result = cLang.removeAttribute("class");
-      } else if (singer === "rob") {
-        result = jsLang.removeAttribute("class");
-      } else {
-        result = reactLang.removeAttribute("class");
+        result = cLang;
+      } else if (singer === "rob" && holiday === "halloween") {
+        result = jsLang;
+      } else if (holiday === "still-halloween"){
+        result = reactLang;
       } 
+
+      document.getElementById("printed-answer").innerHTML = result;
+      
     });
+  
 });

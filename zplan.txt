@@ -6,20 +6,15 @@ DONE 1. h1 saying hello and p explaining what the site does for the user
   DONE - radio buttons or dropdowns
 
 ## JS
-1. onload function
-2. form submit function that hears the click and will run the logic
-3. Logic:
+DONE 1. onload function
+DONE 2. form submit function that hears the click and will run the logic
+DONE 3. Logic:
     - grab form, questions, and possible answers
     - make them to dom elements within their scope
     - if/else branching for logic
 4. function to clear previous answers when form is resubmitted or put in "clear" button
 
-branching if/else plan
-*if choose singer = rob zombie JS will be unhidden
-
-*if choose singer = tay swift C# will be unhidden
-
-*if choose season = halloween or still halloween react will be unhidden
+DONE branching if/else plan
 
 *hide whole div at first, then uncover one at a time
 
