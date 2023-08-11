@@ -1,9 +1,9 @@
 what we need:
 
 ## HTML
-1. h1 saying hello and p explaining what the site does for the user
-2. form with 5 survey questions (yes/no questions)
-  - radio buttons or dropdowns
+DONE 1. h1 saying hello and p explaining what the site does for the user
+ DONE 2. form with 5 survey questions (yes/no questions)
+  DONE - radio buttons or dropdowns
 
 ## JS
 1. onload function
@@ -16,9 +16,9 @@ what we need:
 
 branching if/else plan
 *if choose singer = rob zombie answer will be JS
-if choose singer = tay swift answer will be C#
+*if choose singer = tay swift answer will be C#
 
-if choose season = halloween or still halloween answer will be react
+*if choose season = halloween or still halloween answer will be react
 
 
 **NOT NEEDED TO DO GH-PAGES, CAN DO OVER WEEKEND IF WANT TO**
