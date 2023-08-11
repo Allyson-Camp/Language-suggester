@@ -1,3 +1,43 @@
+body {
+
+}
+
+.header-div {
+  text-align: center;
+}
+
+#submission-form {
+  background-color: rgba(172, 213, 199, 0.451);
+  border-radius: 10px 25px 10px 25px;
+  text-align: center;
+  width: 40%;
+  padding: 10px;
+  margin: auto;
+}
+
+#submission-form select {
+background-color:rgb(108, 133, 125);
+color: white;
+border: none;
+border-radius: 5px;
+box-shadow: 0px 0px 2px 2px rgb(57, 70, 65);
+}
+
+#submission-form button {
+background-color: rgb(255, 255, 255);
+color: rgb(7, 7, 7);
+padding: 10px;
+border: none;
+border-radius: 20px;
+box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+}
+
+#printed-answer {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
 .hidden {
   display: none;
 }

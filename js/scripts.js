@@ -1,4 +1,3 @@
-//Business logic
 function hideAnswer() {
     document.getElementById("printed-answer").setAttribute("class", "hidden");
 }
@@ -13,8 +12,8 @@ function computeAnswer() {
     const cLang = document.getElementById("c-lang").innerHTML;
     const jsLang = document.getElementById("js-lang").innerHTML;
     const reactLang = document.getElementById("react-lang").innerHTML;
-
     let result;
+
     if (singer === "tay" && holiday === "halloween") {
         result = cLang;
     } else if (singer === "rob" && holiday === "halloween") {
@@ -25,9 +24,6 @@ function computeAnswer() {
     document.getElementById("printed-answer").innerHTML = result;
 }
 
-
-
-//UI logic
 function formSubmission(event) {
     event.preventDefault();
     computeAnswer();
