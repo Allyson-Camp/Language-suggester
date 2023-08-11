@@ -1,14 +1,15 @@
-window.addEventListener("load", function () {
-  hideAnswer();
-  formEventListener();
-});
+//Business logic
+function hideAnswer() {
+    document.getElementById("printed-answer").setAttribute("class", "hidden");
+}
 
-  function hideAnswer() {
-  document.getElementById("printed-answer").setAttribute("class", "hidden");
-  }
-  
+function showAnswer() {
+    document.getElementById("printed-answer").removeAttribute("class", "hidden");
+}
+
+//UI logic
 function formEventListener() {
-  const form = document.querySelector("form");
+    const form = document.querySelector("form");
     form.addEventListener("submit", function (e) {
         e.preventDefault();
         const singer = document.getElementById("singer").value;
@@ -25,8 +26,12 @@ function formEventListener() {
         } else if (holiday === "still-halloween") {
             result = reactLang;
         }
-
-        document.getElementById("printed-answer").removeAttribute("class", "hidden");
         document.getElementById("printed-answer").innerHTML = result;
     });
+    showAnswer();
 }
+
+window.addEventListener("load", function () {
+    hideAnswer();
+    formEventListener();
+});
