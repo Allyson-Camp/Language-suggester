@@ -15,10 +15,14 @@ DONE 1. h1 saying hello and p explaining what the site does for the user
 4. function to clear previous answers when form is resubmitted or put in "clear" button
 
 branching if/else plan
-*if choose singer = rob zombie answer will be JS
-*if choose singer = tay swift answer will be C#
+*if choose singer = rob zombie JS will be unhidden
 
-*if choose season = halloween or still halloween answer will be react
+*if choose singer = tay swift C# will be unhidden
 
+*if choose season = halloween or still halloween react will be unhidden
+
+*hide whole div at first, then uncover one at a time
+
+*hide whole div when clear button is pressed
 
 **NOT NEEDED TO DO GH-PAGES, CAN DO OVER WEEKEND IF WANT TO**
