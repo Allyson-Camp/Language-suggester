@@ -1,0 +1,19 @@
+what we need:
+
+## HTML
+1. h1 saying hello and p explaining what the site does for the user
+2. form with 5 survey questions (yes/no questions)
+  - radio buttons or dropdowns
+
+## JS
+1. onload function
+2. form submit function that hears the click and will run the logic
+3. Logic:
+    - grab form, questions, and possible answers
+    - make them to dom elements within their scope
+    - if/else branching for logic
+4. function to clear previous answers when form is resubmitted or put in "clear" button
+
+
+
+**NOT NEEDED TO DO GH-PAGES, CAN DO OVER WEEKEND IF WANT TO**
