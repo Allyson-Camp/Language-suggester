@@ -10,9 +10,10 @@ body {
   background-color: rgba(172, 213, 199, 0.451);
   border-radius: 10px 25px 10px 25px;
   text-align: center;
-  width: 40%;
+  width: 30%;
   padding: 10px;
-  margin: auto;
+  float: left;
+  box-sizing: border-box;
 }
 
 #submission-form select {
@@ -21,6 +22,7 @@ color: white;
 border: none;
 border-radius: 5px;
 box-shadow: 0px 0px 2px 2px rgb(57, 70, 65);
+box-sizing: border-box;
 }
 
 #submission-form button {
@@ -32,11 +34,23 @@ border-radius: 20px;
 box-shadow: 0px 0px 2px 2px rgb(0,0,0);
 }
 
-#printed-answer {
-  text-align: center;
-  width: 80%;
+#printed-answer-div {
+  background-image: url(/img/ball.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: right;
+  width: 65%;
   margin: auto;
+  box-sizing: border-box;
 }
+
+#printed-answer {
+ text-align: center;
+  width: 50%;
+  margin: auto;
+  box-sizing: border-box;
+}
+
 
 .hidden {
   display: none;
