@@ -3,7 +3,9 @@
 //UI logic
 window.addEventListener("load", function () {
     const form = document.querySelector("form");
-
+    const printedAnswer = document.getElementById("printed-answer");
+    printedAnswer.setAttribute("class", "hidden");
+  
     form.addEventListener("submit", function (e) {
        e.preventDefault();
       const singer = document.getElementById("singer").value;
@@ -11,6 +13,7 @@ window.addEventListener("load", function () {
       const cLang = document.getElementById("c-lang").innerHTML;
       const jsLang = document.getElementById("js-lang").innerHTML;
       const reactLang = document.getElementById("react-lang").innerHTML;
+      
       let result;
       if (singer === "tay" && holiday  === "halloween") {
         result = cLang;
@@ -19,7 +22,9 @@ window.addEventListener("load", function () {
       } else if (holiday === "still-halloween"){
         result = reactLang;
       } 
+
+      printedAnswer.removeAttribute("class", "hidden");
       document.getElementById("printed-answer").innerHTML = result;
     });
-  
+
 });
