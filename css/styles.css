@@ -21,11 +21,16 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+
+#top-container img {
+  width: 375px;
 }
 
 #form-div {
-  width: 30%;
+  text-align: center;
+  width:400px;
   display: flex;
   flex-direction: column;
 }
