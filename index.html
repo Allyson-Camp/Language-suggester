@@ -7,104 +7,126 @@
         <script src="js/scripts.js"></script>
         <title>Language Suggester</title>
     </head>
+
     <body>
         <div class="header-div">
             <h1>So you want to be a programmer?</h1>
-            <h2>
-                Answer these simple questions and we will predict your programming destiny!
-            </h2>
         </div>
 
-        <form id="submission-form">
-            <label for="season">What season do you prefer?</label><br />
-            <select id="season">
-                <option value="fall">Fall</option>
-                <option value="spring">Spring</option></select
-            ><br /><br />
+        <div id="top-container">
+            <div id="fortune-teller">
+                <img
+                    src="img/sign.jpg"
+                    alt="A neon sign reading 'Psychic' in a dark window"
+                />
+            </div>
+            <div id="form-div">
+                <p>
+                    Answer these simple questions and I will predict your
+                    programming future:
+                </p>
+                <form id="submission-form">
+                    <label for="season">What season do you prefer?</label><br />
+                    <select id="season">
+                        <option value="fall">Fall</option>
+                        <option value="spring">Spring</option></select
+                    ><br /><br />
 
-            <label for="candy">What candy do you crave?</label><br />
-            <select id="candy">
-                <option value="choc">Chocolate</option>
-                <option value="fruit">Fruity Chewy</option></select
-            ><br /><br />
+                    <label for="candy">What candy do you crave?</label><br />
+                    <select id="candy">
+                        <option value="choc">Chocolate</option>
+                        <option value="fruit">Fruity Chewy</option></select
+                    ><br /><br />
 
-            <label for="holiday">What is the best holiday?</label><br />
-            <select id="holiday">
-                <option value="halloween">Halloween</option>
-                <option value="still-halloween">Still Halloween</option></select
-            ><br /><br />
+                    <label for="holiday">What is the best holiday?</label><br />
+                    <select id="holiday">
+                        <option value="halloween">Halloween</option>
+                        <option value="still-halloween">
+                            Still Halloween
+                        </option></select
+                    ><br /><br />
 
-            <label for="animal">Which animal is superior?</label><br />
-            <select id="animal">
-                <option value="cat">Black Cat</option>
-                <option value="owl">Snow Owl</option></select
-            ><br /><br />
+                    <label for="animal">Which animal is superior?</label><br />
+                    <select id="animal">
+                        <option value="cat">Black Cat</option>
+                        <option value="owl">Snow Owl</option></select
+                    ><br /><br />
 
-            <label for="singer">Whose music speaks to your soul?</label><br />
-            <select id="singer">
-                <option value="tay">Taylor Swift</option>
-                <option value="rob">Rob Zombie</option></select
-            ><br /><br />
+                    <label for="singer">Whose music speaks to your soul?</label
+                    ><br />
+                    <select id="singer">
+                        <option value="tay">Taylor Swift</option>
+                        <option value="rob">Rob Zombie</option></select
+                    ><br /><br />
 
-            <button type="submit" id="submit-btn">Tell me my destiny</button>
-        </form>
+                    <button type="submit" id="submit-btn">
+                        Tell me my destiny
+                    </button>
+                </form>
+            </div>
+        </div>
 
         <div id="printed-answer-div">
             <p id="printed-answer"></p>
         </div>
-        
 
         <div id="lang-div" class="hidden">
-        <div id="c-lang">
-            <h2>C#</h2>
-            <p>
-                <span class="greeting">Hi there, Swifty!</span><br />
-                Just like how Taylor Swift's music is known for its versatility,
-                from country roots to pop anthems, C# is a versatile and
-                powerful programming language that can be used for a wide range
-                of applications. Learning C# can give you the ability to create
-                various types of software, from desktop applications to games,
-                much like how Taylor Swift has evolved her musical style over
-                the years. Imagine being able to develop your own software
-                projects that have a meaningful impact on people's lives, just
-                like Taylor Swift's songs touch the hearts of her fans. Learning
-                C# can empower you to bring your innovative ideas to life and
-                create software that resonates with users.
-            </p>
-        </div>
+            <div id="c-lang">
+                <h2>C#</h2>
+                <p>
+                    <span class="greeting">Hi there, Swifty!</span><br />
+                    Just like how Taylor Swift's music is known for its
+                    versatility, from country roots to pop anthems, C# is a
+                    versatile and powerful programming language that can be used
+                    for a wide range of applications. Learning C# can give you
+                    the ability to create various types of software, from
+                    desktop applications to games, much like how Taylor Swift
+                    has evolved her musical style over the years. Imagine being
+                    able to develop your own software projects that have a
+                    meaningful impact on people's lives, just like Taylor
+                    Swift's songs touch the hearts of her fans. Learning C# can
+                    empower you to bring your innovative ideas to life and
+                    create software that resonates with users.
+                </p>
+            </div>
 
-        <div id="js-lang">
-            <h2>JavaScript</h2>
-            <p>
-                <span class="greeting">"Who is this irresistible creature who has an insatiable love for the dead?"</span><br />
-                You! Theres a few connections I noticed between your interest in
-                Rob Zombie and the world of programming, specifically
-                JavaScript. Just like how Rob Zombie's music is a unique blend
-                of various genres, combining rock, metal, and horror elements to
-                create a distinctive sound, JavaScript allows you to blend
-                different technologies and create interactive and dynamic
-                experiences on the web. It's a language that empowers you to
-                bring your creative ideas to life, much like how Rob Zombie
-                brings his artistic vision to the stage and screen.
-            </p>
-        </div>
+            <div id="js-lang">
+                <h2>JavaScript</h2>
+                <p>
+                    <span class="greeting"
+                        >"Who is this irresistible creature who has an
+                        insatiable love for the dead?"</span
+                    ><br />
+                    You! Theres a few connections I noticed between your
+                    interest in Rob Zombie and the world of programming,
+                    specifically JavaScript. Just like how Rob Zombie's music is
+                    a unique blend of various genres, combining rock, metal, and
+                    horror elements to create a distinctive sound, JavaScript
+                    allows you to blend different technologies and create
+                    interactive and dynamic experiences on the web. It's a
+                    language that empowers you to bring your creative ideas to
+                    life, much like how Rob Zombie brings his artistic vision to
+                    the stage and screen.
+                </p>
+            </div>
 
-        <div id="react-lang">
-            <h2>React</h2>
-            <p>
-                <span class="greeting">So you like Halloween, huh?</span><br />
-                Halloween is all about creating spooky and imaginative
-                experiences, and React allows you to craft captivating and
-                dynamic user interfaces on the web. It's a programming language
-                that lets you bring your creative ideas to life, much like how
-                you'd design a hauntingly enchanting Halloween scene. Imagine
-                being able to build interactive websites or apps that engage
-                users and create seamless, immersive experiences, just like the
-                way Halloween decorations and setups captivate people's
-                attention. Learning React can give you the power to conjure up
-                your own digital magic.
-            </p>
-        </div>
+            <div id="react-lang">
+                <h2>React</h2>
+                <p>
+                    <span class="greeting">So you like Halloween, huh?</span
+                    ><br />
+                    Halloween is all about creating spooky and imaginative
+                    experiences, and React allows you to craft captivating and
+                    dynamic user interfaces on the web. It's a programming
+                    language that lets you bring your creative ideas to life,
+                    much like how you'd design a hauntingly enchanting Halloween
+                    scene. Imagine being able to build interactive websites or
+                    apps that engage users and create seamless, immersive
+                    experiences, just like the way Halloween decorations and
+                    setups captivate people's attention. Learning React can give
+                    you the power to conjure up your own digital magic.
+                </p>
+            </div>
         </div>
     </body>
 </html>
