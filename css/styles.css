@@ -5,20 +5,22 @@
 body {
     background-color: rgb(16, 1, 1);
     color: antiquewhite;
+    
+    
 }
 
 .header-div {
-    /* position: sticky; */
-    /* top: 0; */
+    font-family: 'Righteous', cursive;
     padding: 15px;
     height: 80px;
     display: flex;
     align-items: center;
     margin: 20px;
-    /* gap: 10px; */
 }
 
 #top-container {
+    padding: 10px;
+    margin: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -82,6 +84,8 @@ body {
 
 #printed-answer-div {
     /* width: 80%; */
+    padding: 10px;
+    margin: 10px;
 }
 
 #printed-answer {
@@ -97,9 +101,6 @@ body {
     width: 50%;
 }
 
-.languages {
-}
-
 .lang-img {
     width: 150px;
 }
@@ -108,6 +109,7 @@ body {
     display: none;
 }
 
-.greeting {
+.bold {
     font-weight: bold;
+    font-size: large;
 }
