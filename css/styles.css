@@ -83,22 +83,24 @@ body {
     box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
 }
 
-#printed-answer-div {
-    /* width: 80%; */
+/* #printed-answer-div {
+    width: 80%;
     padding: 10px;
     margin: 10px;
-}
+} */
 
-#printed-answer {
+#printed-answer-div {
     color: rgb(131, 88, 88);
     text-align: center;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+     padding: 10px;
+    margin: 10px;
 }
 
-#printed-answer p {
+#printed-answer-div p {
     width: 50%;
 }
 

@@ -1,9 +1,11 @@
 function hideAnswer() {
-    document.getElementById("printed-answer").setAttribute("class", "hidden");
+    document.getElementById("printed-answer-div").setAttribute("class", "hidden");
 }
 
 function showAnswer() {
-    document.getElementById("printed-answer").removeAttribute("class", "hidden");
+    document
+        .getElementById("printed-answer-div")
+        .removeAttribute("class", "hidden");
 }
 
 function computeAnswer() {
@@ -21,7 +23,16 @@ function computeAnswer() {
     } else if (holiday === "still-halloween") {
         result = reactLang;
     }
-    document.getElementById("printed-answer").innerHTML = result;
+    document.getElementById("printed-answer-div").innerHTML = result;
+
+    resetAnswer();
+}
+
+function resetAnswer() {
+    const reset = document.querySelector("button#reset");
+    reset.addEventListener("click", function () {
+        document.getElementById("printed-answer-div").innerText = "Go Again";
+    });
 }
 
 function formSubmission(event) {
@@ -34,4 +45,5 @@ window.addEventListener("load", function () {
     const form = document.querySelector("form");
     form.addEventListener("submit", formSubmission);
     hideAnswer();
+    // resetAnswer();
 });
