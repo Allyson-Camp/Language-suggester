@@ -31,7 +31,7 @@ function computeAnswer() {
 function resetAnswer() {
     const reset = document.querySelector("button#reset");
     reset.addEventListener("click", function () {
-        document.getElementById("printed-answer-div").innerText = "Go Again";
+        document.getElementById("printed-answer-div").innerText = "";
     });
 }
 
