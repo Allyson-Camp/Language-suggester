@@ -5,15 +5,14 @@
 body {
     background-color: rgb(16, 1, 1);
     color: rgba(222, 237, 239, 0.775);
+    font-family: 'Jost', sans-serif;
 }
 
 .header-div {
-    font-family: "Righteous", cursive;
-    padding: 15px;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    margin: 20px;
+    text-align: center;
+    font-family: 'Moirai One', cursive;
+    font-size: 30px;
+    margin: 10px;
 }
 
 #top-container {
@@ -67,11 +66,11 @@ body {
     box-shadow: 0 0 15px 4px rgb(209, 182, 182);
 }
 
-
-
 #submission-form select {
     background-color: rgb(0, 0, 0);
     color: rgb(209, 182, 182);
+    text-align: center;
+    padding: 5px;
     border: none;
     border-radius: 5px;
     box-shadow: 0px 0px 2px 2px rgb(57, 70, 65);
