@@ -14,6 +14,7 @@ body {
     height: 80px;
     display: flex;
     align-items: center;
+    margin: 20px;
     /* gap: 10px; */
 }
 
@@ -35,12 +36,12 @@ body {
         opacity: 0.7;
     }
 
-    25%{
-        opacity: .8;
+    25% {
+        opacity: 0.6;
     }
 
     50% {
-        opacity: .8;
+        opacity: 0.8;
     }
 
     100% {
@@ -80,12 +81,27 @@ body {
 }
 
 #printed-answer-div {
-    width: 60%;
-    text-align: center;
-    display: flex;
+    /* width: 80%; */
 }
 
 #printed-answer {
+    color: rgb(131, 88, 88);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#printed-answer p {
+    width: 50%;
+}
+
+.languages {
+}
+
+.lang-img {
+    width: 150px;
 }
 
 .hidden {
