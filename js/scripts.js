@@ -26,7 +26,7 @@ function showAnswer() {
 
 function resetEvent() {
     document.querySelector("form").reset();
-     document.getElementById("printed-answer-div").innerText = "";
+    document.getElementById("printed-answer-div").innerText = "";
 }
 
 function formSubmission(event) {
