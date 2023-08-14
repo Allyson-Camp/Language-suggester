@@ -36,6 +36,8 @@ This webpage allows the user to answer a series of yes or no questions within a 
 
 6. Type: code . to open all files in the Language-suggester folder in your code editor of choice 
 
+gh-pages: https://allyson-camp.github.io/Language-suggester/
+
 ## Known Bugs
 
 None
