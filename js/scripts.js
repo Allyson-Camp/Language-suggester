@@ -3,9 +3,7 @@ function hideAnswer() {
 }
 
 function showAnswer() {
-    document
-        .getElementById("printed-answer-div")
-        .removeAttribute("class", "hidden");
+    document.getElementById("printed-answer-div").removeAttribute("class", "hidden");
 }
 
 function computeAnswer() {
@@ -25,7 +23,6 @@ function computeAnswer() {
     }
     document.getElementById("printed-answer-div").innerHTML = result;
 
-    resetAnswer();
 }
 
 function resetAnswer() {
@@ -39,11 +36,11 @@ function formSubmission(event) {
     event.preventDefault();
     computeAnswer();
     showAnswer();
+    resetAnswer();
 }
 
 window.addEventListener("load", function () {
     const form = document.querySelector("form");
     form.addEventListener("submit", formSubmission);
     hideAnswer();
-    // resetAnswer();
 });

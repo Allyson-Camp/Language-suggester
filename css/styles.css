@@ -5,12 +5,12 @@
 body {
     background-color: rgb(16, 1, 1);
     color: rgba(222, 237, 239, 0.775);
-    font-family: 'Jost', sans-serif;
+    font-family: "Jost", sans-serif;
 }
 
 .header-div {
     text-align: center;
-    font-family: 'Moirai One', cursive;
+    font-family: "Moirai One", cursive;
     font-size: 30px;
     margin: 10px;
 }
